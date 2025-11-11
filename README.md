@@ -31,7 +31,7 @@ Installation
 ------------
 
 TorchDrug can be installed on either Linux, Windows or macOS. It is compatible with
-3.7 <= Python <= 3.10 and PyTorch >= 1.8.0.
+3.7 <= Python <= 3.12 and PyTorch >= 1.8.0.
 
 ### From Conda ###
 
@@ -53,7 +53,7 @@ instructions in https://github.com/rusty1s/pytorch_scatter
 ### From Source ###
 
 ```bash
-git clone https://github.com/DeepGraphLearning/torchdrug
+git clone https://github.com/yueqingyou/torchdrug.git
 cd torchdrug
 pip install -r requirements.txt
 python setup.py install
